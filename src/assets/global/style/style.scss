@@ -1,0 +1,32 @@
+/* 定义一些全局的图标class */
+
+/*定义全局样式*/
+.el-drawer__wrapper {
+  z-index: -1 !important;
+  width: 0;
+  overflow: visible;
+  position: static !important;
+  height: 0;
+  .el-drawer__container {
+    position: static !important;
+    width: 0;
+    overflow: visible;
+    height: 0;
+    .el-drawer {
+      z-index: 99999999999;
+    }
+  }
+}
+
+/*
+  折叠面板 el-collapse
+*/
+.el-collapse-item {
+  .el-collapse-item__header {
+    padding-left: 15px;
+  }
+}
+
+/*
+Button 按钮
+*/
